@@ -31,7 +31,6 @@ st.markdown("""
 
 st.text("")
 
-
 uploaded_file = st.file_uploader(
     "Volitelné: nahrajte svůj CSV soubor. Pokud jej nenahrajete, použijí se ukázková data.",
     type="csv",
@@ -40,7 +39,6 @@ uploaded_file = st.file_uploader(
 
 st.text("")
 
-# AUTOMATICKÉ DATA PRO DEMO
 if uploaded_file is None:
     st.info("Nebyl nahrán žádný soubor – používám ukázková data `Spotreby_bez_FVE.csv`.")
     soubor_spotreby = "Spotreby_bez_FVE.csv"
@@ -55,7 +53,6 @@ with st.spinner("Počítám..."):
     if uploaded_file is not None:
         uploaded_file.seek(0)
 
-    # IDENTICKÝ EXPANDER Z PROJEKTOVÉ VERZE
     with st.expander("**Jak číst výsledky**"):
         st.markdown(
             "- **Roční náklady** – kolik v průměru ročně zaplatíte za elektřinu po instalaci elektrárny "
