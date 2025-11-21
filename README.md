@@ -14,9 +14,7 @@ Model využívá reálná data spotřeby elektřiny z chytrého elektroměru a m
 
 Aplikaci (demo verzi s ukázkovými daty) lze spustit zde:  
 *The application (demo version with sample data) is available here:*  
- 
 https://czechitas-projekt-fve-optimalizace-dtygtgwlnd5jeaoof4nzg3.streamlit.app/
-
 Demo verze se spustí automaticky s ukázkovým datasetem. Uživatel může volitelně nahrát vlastní CSV.  
 *The demo version runs automatically with sample data. Users may optionally upload their own CSV file.*
 
