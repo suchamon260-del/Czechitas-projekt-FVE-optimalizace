@@ -50,8 +50,8 @@ Demo verze se spustí automaticky s ukázkovým datasetem. Uživatel může voli
 
 - `PVGIS.csv` – hodinová výroba pro 1 kWp  
   *hourly PV production for 1 kWp*
-
-- `Spotreby_bez_FVE.csv` – vstupní dataset reálné spotřeby
+  
+- `Spotreby_bez_FVE.csv` – vstupní dataset reálné spotřeby  
   *input dataset of real household electricity consumption*
 
 - `vysledky_optimalizace.csv` – výsledky simulace pro 40 variant  
