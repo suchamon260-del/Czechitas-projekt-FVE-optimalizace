@@ -66,10 +66,10 @@ Demo verze se spustí automaticky s ukázkovým datasetem. Uživatel může voli
 ## Popis projektu  
 *Project description*
 
-Cílem projektu je zjistit, jaká kombinace výkonu fotovoltaické elektrárny a kapacity baterie je pro konkrétní domácnost ekonomicky nejvýhodnější. 
+Cílem projektu je zjistit, jaká kombinace výkonu fotovoltaické elektrárny a kapacity baterie je pro konkrétní domácnost ekonomicky nejvýhodnější.   
 *The goal of the project is to determine which combination of a photovoltaic system size and battery capacity is the most cost-effective for a given household.*
 
-Projekt simuluje energetické chování fotovoltaické elektrárny (FVE) a baterie pomocí hodinového modelu, který počítá výrobu FVE, přímou spotřebu domácnosti, nabíjení a vybíjení baterie a spotřebu elektřiny ze sítě, když výroba nestačí. Na základě těchto výpočtů model vyhodnocuje roční náklady, úsporu, míru soběstačnosti a ekonomickou návratnost jednotlivých konfigurací. Výsledky jsou dostupné v interaktivní aplikaci ve Streamlitu.
+Projekt simuluje energetické chování fotovoltaické elektrárny (FVE) a baterie pomocí hodinového modelu, který počítá výrobu FVE, přímou spotřebu domácnosti, nabíjení a vybíjení baterie a spotřebu elektřiny ze sítě, když výroba nestačí. Na základě těchto výpočtů model vyhodnocuje roční náklady, úsporu, míru soběstačnosti a ekonomickou návratnost jednotlivých konfigurací. Výsledky jsou dostupné v interaktivní aplikaci ve Streamlitu.  
 *The project simulates the energy behavior of a photovoltaic system and battery using an hourly model that calculates PV generation, the household’s direct consumption, battery charging and discharging, and electricity drawn from the grid when PV production is insufficient. Based on these calculations, the model evaluates annual costs, savings, self-sufficiency and the economic payback of each configuration. The results are available in an interactive Streamlit application.*
 
 ---
