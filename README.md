@@ -48,12 +48,6 @@ Demo verze se spustí automaticky s ukázkovým datasetem. Uživatel může voli
 - `PVGIS.py` – zpracování dat PVGIS  
   *preprocessing of PVGIS dataset*
 
-- `streamlit.py`, `streamlit_grafy.py`, `streamlit_shrnuti.py` – projektová Streamlit aplikace  
-  *project Streamlit application (full input required)*
-
-- `streamlit_demo.py` – demo aplikace s automatickými daty  
-  *demo Streamlit app with auto-loaded sample data*
-
 - `PVGIS.csv` – hodinová výroba pro 1 kWp  
   *hourly PV production for 1 kWp*
 
@@ -62,6 +56,12 @@ Demo verze se spustí automaticky s ukázkovým datasetem. Uživatel může voli
 
 - `vysledky_optimalizace.csv` – výsledky simulace pro 40 variant  
   *simulation results for all 40 PV–battery configurations*
+  
+- `streamlit.py`, `streamlit_grafy.py`, `streamlit_shrnuti.py` – projektová Streamlit aplikace  
+  *project Streamlit application (full input required)*
+
+- `streamlit_demo.py` – demo aplikace s automatickými daty  
+  *demo Streamlit app with auto-loaded sample data*
 
 ---
 
