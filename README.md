@@ -30,8 +30,8 @@ Demo verze se spustí automaticky s ukázkovým datasetem. Uživatel může voli
 
 - **PVGIS**  (modelovaná solární výroba / *modeled solar production*)  
 
-- **Portál naměřených dat** – data z chytrého elektroměru (reálná spotřeba domácnosti)  
-  *Portal of Measured Data – smart-meter dataset (real household electricity consumption)*
+- **Portál naměřených dat** (data z chytrého elektroměru - reálná spotřeba domácnosti)  
+  *Portal of Measured Data (smart-meter dataset - real household electricity consumption)*
 
 ---
 
