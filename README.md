@@ -14,7 +14,7 @@ Model využívá reálná data spotřeby elektřiny z chytrého elektroměru a m
 
 Aplikaci (demo verzi s ukázkovými daty) lze spustit zde:  
 *The application (demo version with sample data) is available here:*  
-https://czechitas-projekt-fve-optimalizace-dtygtgwlnd5jeaoof4nzg3.streamlit.app/
+https://czechitas-projekt-fve-optimalizace-dtygtgwlnd5jeaoof4nzg3.streamlit.app/  
 Demo verze se spustí automaticky s ukázkovým datasetem. Uživatel může volitelně nahrát vlastní CSV.  
 *The demo version runs automatically with sample data. Users may optionally upload their own CSV file.*
 
@@ -27,7 +27,7 @@ Demo verze se spustí automaticky s ukázkovým datasetem. Uživatel může voli
 
 - **Streamlit** (interaktivní datová aplikace / *interactive data application*) 
 
-- **PVGIS** – modelovaná solární výroba / *modeled solar production*  
+- **PVGIS**  (modelovaná solární výroba / *modeled solar production*)  
 
 - **data z chytrého elektroměru** – reálná spotřeba domácnosti (Portál naměřených dat)  
   *Smart-meter data – real household electricity consumption (15-minute interval)*
