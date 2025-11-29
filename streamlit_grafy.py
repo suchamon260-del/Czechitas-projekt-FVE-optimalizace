@@ -290,7 +290,7 @@ def vytvor_graf_leto_vs_zima(soubor_spotreby):
     )
 
     fig.update_layout(
-        title="Léto vs zima: modelová solární výroba a spotřeba vaší domácnosti během dne",
+        title="Léto vs zima: modelovaná solární výroba a spotřeba vaší domácnosti během dne",
         title_x=0.0,
         title_font=dict(size=20),
         xaxis=dict(
@@ -321,3 +321,4 @@ def vytvor_graf_leto_vs_zima(soubor_spotreby):
     )
 
     return fig
+
