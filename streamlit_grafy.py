@@ -235,7 +235,7 @@ def vytvor_graf_leto_vs_zima(soubor_spotreby):
     prumer_leto = vse_hodiny.merge(prumer_leto, on="hodina", how="left").fillna(0)
     prumer_zima = vse_hodiny.merge(prumer_zima, on="hodina", how="left").fillna(0)
 
-    hodiny = vse_hodiny["hodina"]
+    hodiny = vse_hodiny["hodina"].astype(str)
 
     fig = go.Figure()
 
@@ -296,9 +296,8 @@ def vytvor_graf_leto_vs_zima(soubor_spotreby):
         xaxis=dict(
             anchor="y",
             domain=[0.0, 1.0],
-            matches="x2",
             showticklabels=False,
-            dtick=1,
+            type="category",
         ),
         yaxis=dict(
             anchor="x",
@@ -309,7 +308,7 @@ def vytvor_graf_leto_vs_zima(soubor_spotreby):
             anchor="y2",
             domain=[0.0, 1.0],
             title_text="Hodina dne",
-            dtick=1,
+            type="category",
         ),
         yaxis2=dict(
             anchor="x2",
@@ -321,4 +320,6 @@ def vytvor_graf_leto_vs_zima(soubor_spotreby):
     )
 
     return fig
+
+
 
