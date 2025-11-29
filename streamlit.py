@@ -26,7 +26,7 @@ st.markdown("""
 **Jak to funguje:**
 
 1. Nahrajete svůj CSV soubor s roční spotřebou elektřiny z Portálu naměřených dat  
-2. Vaše data spotřeby se sloučí s modelovou solární výrobou a provede se simulace chování celé sestavy
+2. Vaše data spotřeby se sloučí s modelovanou solární výrobou a provede se simulace chování celé sestavy
 3. Zobrazí se doporučené řešení pro váš dům a přehledné grafy
 """)
 
@@ -75,6 +75,7 @@ if uploaded_file is not None:
     "s baterií. Ta umožní lépe využít přebytky vyrobené elektřiny v době, kdy "
     "slunce nesvítí a spotřeba v domácnosti je vyšší."
 )
+
 
 
         
