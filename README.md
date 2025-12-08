@@ -1,5 +1,5 @@
 # Optimalizace výkonu fotovoltaické elektrárny a kapacity bateriového úložiště  
-*Optimization of PV System Size and Battery Storage Capacity*
+*Optimization of Photovoltaic System Size and Battery Storage Capacity*
 
 Tento projekt simuluje provoz domácí fotovoltaické elektrárny v kombinaci s bateriovým úložištěm a hodnotí, která konfigurace je ekonomicky nejvýhodnější pro českou domácnost.  
 *This project simulates the operation of a residential photovoltaic system combined with battery storage and evaluates the most cost-effective configuration for a Czech household.*
